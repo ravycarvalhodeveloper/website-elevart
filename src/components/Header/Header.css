@@ -1,0 +1,165 @@
+
+
+.HeaderContainer {
+    position: absolute;
+}
+
+
+.NavContainer {
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    height: 4rem;
+    width: 100vw;
+
+    
+    background: rgb(244,19,53);
+    background: linear-gradient(90deg, rgba(244,19,53,1) 0%, rgba(246,122,60,1) 62%);
+}
+
+
+.Logo {
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Logo:hover {
+    height: 3.3rem;
+    transition: 0.3s;
+}
+
+.OpenMenu {
+    height: 1.5rem;
+    width: auto;
+    cursor: pointer;
+}
+
+.OpenMenu:hover {
+    transform: rotate(25deg);
+    transition: 0.5s;
+}
+
+
+.CloseMenu {
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+   
+    height: 2.3rem;
+    width: auto;
+    cursor: pointer;
+    color: #141414;
+
+
+    margin: 0.8rem;
+}
+
+.CloseMenu:hover {
+    transform: rotate(25deg);
+    transition: 0.5s;
+}
+
+.LogoOrange {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#CloseLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.Links {
+    list-style: none;
+    text-decoration: none;
+    color: 
+    #F5F5F5;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    background: rgb(244,19,53);
+    background: linear-gradient(90deg, rgba(244,19,53,1) 0%, rgba(246,122,60,1) 62%);
+    height: 3.5rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Links:hover{
+    background-color: F41335;
+    color:#F5F5F5  ;
+    transition: 0.5s;
+}
+
+
+.FlexLogoLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.LogoTitulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Titulo {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .NavContainer {
+        display: flex;
+        align-items: center;
+        justify-content: safe;
+        gap: 1rem;
+    }
+    
+
+
+
+    .CloseHambuguerNone {
+        display: none;
+         visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .NavContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+  
+    
+    .CloseLinksDesktop {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+

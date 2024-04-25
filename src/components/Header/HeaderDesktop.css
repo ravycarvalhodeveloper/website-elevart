@@ -1,0 +1,26 @@
+.HeaderDesktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    text-align: center;
+
+}
+
+.LinksDestkop {
+    margin-left: 1rem ;
+    margin-right: 1rem ;
+
+   
+
+    color: white;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    gap: 2rem;
+}
+.LinksDestkop:hover {
+    font-size: 1.3rem;
+    transition: 0.5s;
+}

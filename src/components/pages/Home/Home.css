@@ -1,0 +1,8 @@
+.Home {
+    background-color: #141414;
+    background-image: url(../../../assets/element.png.png) no-repeat;
+    background-size:100%;
+    color: black;
+    text-align: center;
+    height: 100vh;
+}
