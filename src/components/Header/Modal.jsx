@@ -26,6 +26,7 @@ export default function Modal({isOpen , Children , setModalOpen}) {
                             <Link  onClick={()=> setModalOpen(!isOpen)}  className="Links" to="contatos">Contatos</Link> 
                         </ul>
                         <IconsSocials/>
+                        <p className="tituloDev">Developer: Agência Elevart</p>
                     </div>
                 </div>
            

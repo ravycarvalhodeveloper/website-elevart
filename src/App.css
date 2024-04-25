@@ -31,6 +31,15 @@ body {
    
 }
 
+.tituloDev {
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 
 .ClosePath {
     display: none;

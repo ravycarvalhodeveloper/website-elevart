@@ -8,8 +8,8 @@ export default function HeaderDesktop() {
         <div className="HeaderDesktop CloseLinksDesktop">
             <Link className="LinksDestkop CloseLinksDesktop" to="/">Início</Link>
             <Link className="LinksDestkop CloseLinksDesktop" to="/portfolio">Portfólio</Link>
-            <Link className="LinksDestkop CloseLinksDesktop" to="/">Sobre</Link>
-            <Link className="LinksDestkop CloseLinksDesktop" to="/">Contatos</Link>
+            <Link className="LinksDestkop CloseLinksDesktop" to="/sobre">Sobre</Link>
+            <Link className="LinksDestkop CloseLinksDesktop" to="/contatos">Contatos</Link>
         </div>
     )
 }
